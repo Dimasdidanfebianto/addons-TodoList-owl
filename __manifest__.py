@@ -37,7 +37,9 @@
     'installable': True,
     'assets': {
         'web.assets_backend': [
-            
+            'owl_todo_list/static/src/components/*/*.js',
+            'owl_todo_list/static/src/components/*/*.xml',
+            'owl_todo_list/static/src/components/*/*.scss',
         ]
     },
 }
